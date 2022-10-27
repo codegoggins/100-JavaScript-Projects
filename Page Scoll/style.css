@@ -1,0 +1,36 @@
+*{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: whitesmoke;
+    width: 100%;
+    z-index: 1;
+}
+
+nav h1{
+    font-size: 40px;
+    padding: 10px 60px;
+}
+
+nav .scroll-line{
+    height: 4px;
+    background-color: blue;
+    width: 0%;
+}
+
+.content{
+    padding: 10px 60px;
+}
+
+.content > p{
+    margin-top: 6px;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
